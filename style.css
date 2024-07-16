@@ -1,0 +1,133 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box; 
+}
+ul,li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+h1,h1,h3,p{
+    margin: 0;
+}
+:root{
+    --main-font:"Roboto", sans-serif;
+    --cmn-font:"Josefin Sans", sans-serif;
+}
+body{
+    font-family: var(--cmn-font);
+}
+ div.icons {
+    display:flex ;
+   
+ }
+ div.icons a{
+   color: #151A32;
+ }
+ 
+ div.icons {
+    
+    padding: 0 10px;
+ }
+ li.nav-item a:hover{
+    background-color:#FF6F61 ;
+ }
+ 
+
+ */  
+ div.img1{
+    width: 1920px;
+    height: 800px;
+    top: 100px;
+    gap: 0px;
+    opacity: 0px;
+    position: fixed;
+    
+ }
+ div.img2{
+   width: 1920px;
+height: 800px;
+top: 103px;
+gap: 0px;
+opacity: 0px;
+
+
+ }
+ span.li.zeropar{
+ position: relative;
+ }
+ span.zero{
+   background-color: #FF6F61;
+   display: inline-block;
+   color: #ffff;
+   width: 15px;
+   height: 15px;
+   text-align: center;
+   line-height: 18px;
+   border-radius: 50%;
+   position: absolute;
+   top: 25px;
+   right: 313px;
+   
+ }
+div.search-box{
+   width: 100vw;
+   height: 100vh;
+   background-color: rgba(0, 0, 0, 0.791);
+   position: fixed;
+   top: 0;
+   left: 0;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   visibility: hidden;
+   opacity: 0;
+}
+div.search-box.search-active{
+   visibility: visible;
+   opacity: 1;
+}
+div.search-box input{
+   padding: 10px 20px;
+   border: none;
+   outline: none;
+   width: 470px;
+   border-radius: 50px;
+   background: transparent;
+   border: 2px solid #FF6F61;
+   
+}
+div.search-box button{
+   border: none;
+   position: absolute;
+   right: 20px;
+   top: 50%;
+   transform: translateY(-50%);
+   background-color: transparent;
+   color: #fff;
+   
+}
+input{
+   color: white;
+}
+div.search-box span.cross{
+   border: 2px solid #FF6F61;
+   width: 50px;
+   height: 50px;
+   color: #f8f8f8;
+   border-radius: 50%;
+   text-align: center;
+   line-height: 50px;
+   font-size: 20px;
+   position: absolute;
+   top: 5%;
+   right: 3%;
+   transition: 0.7s;
+   
+}
+div.search-box span.cross:hover {
+ transform: rotate(360deg);
+ background-color: #FF6F61;
+}
